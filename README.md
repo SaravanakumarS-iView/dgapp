@@ -11,6 +11,7 @@
    * Need to configure this with build.gradle file.
    * Release build command : gradlew bundleRelease.
    * Generate the keystore file using the below command.
-       keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
+       - keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
     
 __FYI, As of now we are storing the JSON in service folder based on the pagination index we will dynamcally import the json and displayed the results. In future if we need it from the api we can replace with dynamic import with actual API.__
